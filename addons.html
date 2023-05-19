@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Frontend Mentor | Multi-step form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="addons.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="background">
+          
+           <!-- Background & Header -->
+
+          <header>
+            <div class="step-panel">
+              <div class="circle">1</div>
+              <div class="step-wrapper">
+                <h4>STEP 1</h4>
+                <p>YOUR INFO</p>
+              </div>
+            </div>
+            <div class="step-panel">
+              <div class="circle">2</div>
+              <div class="step-wrapper">
+                <h4>STEP 2</h4>
+                <p>SELECT PLAN</p>
+              </div>
+            </div>
+            <div class="step-panel">
+              <div class="circle active">3</div>
+              <div class="step-wrapper">
+                <h4>STEP 3</h4>
+                <p>ADD-ONS</p>
+              </div>
+            </div>
+            <div class="step-panel">
+              <div class="circle">4</div>
+              <div class="step-wrapper">
+                <h4>STEP 4</h4>
+                <p>SUMMARY</p>
+              </div>
+            </div>
+          </header>
+          </section>
+
+          <!-- Main -->
+
+          <main>
+            <div class="container-main">
+              <div class="panel panel--add">
+                <h1>Pick add-ons</h1>
+                <p>Add-ons help enhance your gaming experience</p>
+              </div>
+              <div class="wrapper wrapper--plans">
+                <div class="plan plan--online">
+                  <div class="box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9"><path fill="none" stroke="#FFF" stroke-width="2" d="m1 4 3.433 3.433L10.866 1"/></svg>
+                  </div>
+                  <div class="container container--online">
+                      <h3>Online services</h3>
+                      <p>Access to multiplayer games</p>
+                  </div>
+                  <div class="pricing">+$1/mo</div>
+                </div>
+                <div class="plan plan--storage">
+                  <div class="box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9"><path fill="none" stroke="#FFF" stroke-width="2" d="m1 4 3.433 3.433L10.866 1"/></svg>
+                  </div>
+                  <div class="container container--storage">
+                      <h3>Larger storage</h3>
+                      <p>Extra 1TB of cloud save</p>
+                  </div>
+                  <div class="pricing">+$2/mo</div>
+                </div>
+                <div class="plan plan--custom">
+                  <div class="box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9"><path fill="none" stroke="#FFF" stroke-width="2" d="m1 4 3.433 3.433L10.866 1"/></svg>
+                  </div>
+                  <div class="container container--custom">
+                      <h3>Customizable profile</h3>
+                      <p>Custom theme on your profile</p>
+                  </div>
+                  <div class="pricing">+$2/mo</div>
+                </div>
+            </div>
+          </main>
+
+          <!-- Footer -->
+
+          <footer>
+            <div class="go-back">Go back</div>
+            <div class="next-step">Next Step</div>
+          </footer>
+        <script src="addons.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Frontend Mentor | Multi-step form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="finish.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+          <!-- Background & Header -->
+
+        <section class="background">
+          <header>
+            <div class="step-panel">
+              <div class="circle">1</div>
+              <div class="step-wrapper">
+                <h4>STEP 1</h4>
+                <p>YOUR INFO</p>
+              </div>
+            </div>
+            <div class="step-panel">
+              <div class="circle">2</div>
+              <div class="step-wrapper">
+                <h4>STEP 2</h4>
+                <p>SELECT PLAN</p>
+              </div>
+            </div>
+            <div class="step-panel">
+              <div class="circle">3</div>
+              <div class="step-wrapper">
+                <h4>STEP 3</h4>
+                <p>ADD-ONS</p>
+              </div>
+            </div>
+            <div class="step-panel">
+              <div class="circle active">4</div>
+              <div class="step-wrapper">
+                <h4>STEP 4</h4>
+                <p>SUMMARY</p>
+              </div>
+            </div>
+          </header>
+          </section>
+
+          <!-- Main -->
+
+          <main>
+            <div class="container-main">
+              <div class="panel panel--finish">
+                <h1>Finishing up</h1>
+                <p>Double-check everything looks OK before confirming.</p>
+              </div>
+              <div class="wrapper wrapper--finish">
+                <div class="panel--plan">
+                    <div class="container">
+                        <h5>Arcade <span class="name-time">(Yearly)</span></h5>
+                        <p>Change</p>
+                    </div>
+                    <p class="price plan-price">$9/yr</p>
+                </div>
+                <div class="line"></div>
+              </div>
+              <div class="panel--total">
+                <p class="total">Total (per year)</p>
+                <p class="final-price">$120/yr</p>
+              </div>
+            </div>
+          </main>
+
+          <!-- Footer -->
+
+          <footer>
+            <div class="go-back">Go back</div>
+            <div class="confirm">Confirm</div>
+          </footer>
+        <script src="finish.js" async defer></script>
+    </body>
+</html>

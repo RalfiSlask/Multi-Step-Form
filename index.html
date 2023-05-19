@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Multi-step form</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <section class="background">
+
+    <!-- Background & Header -->
+
+    <header>
+      <div class="step-panel">
+        <div class="circle active">1</div>
+        <div class="step-wrapper">
+          <h4>STEP 1</h4>
+          <p>YOUR INFO</p>
+        </div>
+      </div>
+      <div class="step-panel">
+        <div class="circle">2</div>
+        <div class="step-wrapper">
+          <h4>STEP 2</h4>
+          <p>SELECT PLAN</p>
+        </div>
+      </div>
+      <div class="step-panel">
+        <div class="circle">3</div>
+        <div class="step-wrapper">
+          <h4>STEP 3</h4>
+          <p>ADD-ONS</p>
+        </div>
+      </div>
+      <div class="step-panel">
+        <div class="circle">4</div>
+        <div class="step-wrapper">
+          <h4>STEP 4</h4>
+          <p>SUMMARY</p>
+        </div>
+      </div>
+    </header>
+  </section>
+
+  <!-- Main -->
+
+  <main>
+    <div class="container">
+      <div class="panel panel--personal">
+        <h1>Personal info</h1>
+        <p>Please provide your name, email address, and phone number.</p>
+      </div>
+      <div class="wrapper wrapper--forms">
+        <form>
+          <div class="label-panel">
+            <label>Name</label><label class="error error--name hidden">This field is required</label>
+            </div>
+            <input class="name" type="text" spellcheck="false" placeholder="e.g. Stephen King">
+        </form>
+        <form>
+          <div class="label-panel">
+            <label>Email Adress</label><label class="error error--email hidden">This field is required</label>
+            </div>
+            <input class="email" type="text" spellcheck="false" placeholder="e.g. stephenking@lorem.com">
+        </form>
+        <form>
+          <div class="label-panel">
+          <label>Phone Number</label><label class="error error--phone hidden">This field is required</label>
+          </div>
+            <input class="phone" type="text" spellcheck="false" placeholder="e.g. +1 234 567 890">
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+
+  <footer>
+    <div class="next-step">Next Step</div>
+  </footer>
+  <script src="index.js" defer></script>
+</body>
+</html>
