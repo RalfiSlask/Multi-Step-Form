@@ -1,6 +1,6 @@
 # Frontend Mentor - Multi-Step-Form
 
-![Design preview for the Multi-Step-Form](./peview.png)
+![Design preview for the Multi-Step-Form](./preview.png)
 
 
 Built with
