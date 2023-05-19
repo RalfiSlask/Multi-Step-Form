@@ -1,6 +1,6 @@
 # Frontend Mentor - Multi-Step-Form
 
-![Design preview for the Password generator app coding challenge](./preview.jpg)
+![Design preview for the Multi-Step-Form](./preview.png)
 
 
 Built with
